@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <title>tet</title>
+        <style>
+            .main{
+                margin: 0;
+                background: #e9ede4;
+            }
+            .main, .sub{
+                padding: 10px;
+                border: 1px solid #7ab533;
+            }
+            /* .sub:last-child{
+                background-color: blue;
+            }    */
+            a:link{
+                color: black;
+            }
+            a:hover{
+                color: #10b954;
+            }
+            a:visited{
+                color: #b92910;
+            }
+            .last:hover a{
+                display: block;
+                background-color: #7ab533;
+            }
+            
+            .dont{
+                display: none;
+            }
+            /* p i:first-child{
+                font-weight: 700;
+                color: #b92910;
+            } */
+            p:first-child i{
+                font-weight: 700;
+                color: #17d810;
+            }
+            q:lang(no)
+            {
+                color: rgb(199, 111, 16);
+            }
+            .final p::after{
+                content: " ended";
+                color: #b92910;
+            }
+            .final p::before{
+                content: " started";
+                color: #b92910;
+            }
+            .final::after{
+                content: "---";
+                border: 1px solid #000;
+            }
+            .final div::before{
+                border: 1px solid #000;
+            }
+            .required::after{
+                content: ' *';
+                color: #b92910;
+            }
+            [data-tooltip]{
+                position: relative;
+            }
+            [data-tooltip]:hover::after{
+                content: attr(data-tooltip);
+                background-color: #bcb9b9;
+                padding: 5px;
+                position: absolute;
+                top: 0px;
+                width: 50px;
+                left: 62px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <p> Out of  <i> Bold</i>Lorem ipsum dolor <i> Bold</i>  sit amet consectetur  <i> Bold</i> adipisicing elit. Nulla, nesciunt! Magnam, vero fugiat dolore necessitatibus enim iusto harum quod, quis saepe perferendis ipsum cumque. Natus officia nostrum veritatis debitis asperiores?</p>        
+            <p> Out of <i> Bold</i>Lorem ipsum dolor <i> Bold</i>  sit amet consectetur  <i> Bold</i> adipisicing elit. Nulla, nesciunt! Magnam, vero fugiat dolore necessitatibus enim iusto harum quod, quis saepe perferendis ipsum cumque. Natus officia nostrum veritatis debitis asperiores?</p>        
+            <div class="sub">
+                <div> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut ex aliquam omnis, at vel qui aut debitis, odio molestiae iste nulla itaque iusto? Facere consectetur dolor accusamus dolorem numquam blanditiis.</div>
+                <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti facilis iusto, pariatur voluptatum nostrum ad facere culpa, harum, quo doloribus non. Fugiat, quis saepe neque modi totam explicabo officia provident.</div>
+                <div> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos perferendis architecto blanditiis tenetur ipsam quisquam sunt corrupti vero fuga veniam provident dolores veritatis aspernatur quos totam, laudantium praesentium iste pariatur.</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor animi voluptatem dolores nam ipsum perferendis ad neque debitis? Deleniti quo fugit dolorem cum, excepturi cupiditate consequuntur asperiores! Omnis, eaque possimus?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptatibus necessitatibus id perferendis voluptas, minima sit unde veritatis repellat facilis, tempore eaque corporis, quod ab consequatur aliquam odit placeat iure.</p>
+            </div>
+            <div class="sub2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor dolore ratione suscipit tempore explicabo, architecto quo cum id pariatur illo ipsum quasi natus quae nesciunt similique! Impedit eos obcaecati ratione.
+            </div>
+            <div class="sub1">
+                ABC
+            </div>
+            
+            <div class="sub last">
+                <a class="dont" href="https://clickseon.com">Click here</a>    
+            </div>
+            <div class="dont">
+                <p>Dont click</p>
+            </div>
+            <div>
+                <p> <i> Bold</i> Lorem ipsum dolor <i> Bold</i>  sit amet consectetur  <i> Bold</i> adipisicing elit. Nulla, nesciunt! Magnam, vero fugiat dolore necessitatibus enim iusto harum quod, quis saepe perferendis ipsum cumque. Natus officia nostrum veritatis debitis asperiores?</p>
+                <p> <i> Bold</i>Lorem ipsum dolor <i> Bold</i>  sit amet consectetur  <i> Bold</i> adipisicing elit. Nulla, nesciunt! Magnam, vero fugiat dolore necessitatibus enim iusto harum quod, quis saepe perferendis ipsum cumque. Natus officia nostrum veritatis debitis asperiores?</p>
+                <p> <i> Bold</i>Lorem ipsum dolor <i> Bold</i>  sit amet consectetur  <i> Bold</i> adipisicing elit. Nulla, nesciunt! Magnam, vero fugiat dolore necessitatibus enim iusto harum quod, quis saepe perferendis ipsum cumque. Natus officia nostrum veritatis debitis asperiores?</p>
+            </div>
+            <div class="final">
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis cupiditate suscipit doloremque ex saepe odio obcaecati voluptatum ipsam perspiciatis itaque. Consequatur at sed facilis magni quis nam praesentium itaque odio?</p>
+                </div>
+            </div>
+            <div class="form">
+                <label for="name" class="required">Name</label>
+                <input class="" type="text" id="name">
+                <label for="email" class="required">Email</label>
+                <input class="" type="text" id="email">
+                <button type="button" data-tooltip="To Save">Submit</button>
+
+            </div>
+            
+
+            
+        
+        
+    </body>
+</html>

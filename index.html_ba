@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <title>Jio</title>
+        <link rel="icon" type="image/png" href="assets/img/jio-logo.png">
+
+        <!-- <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+        <link rel="stylesheet" href="https://fontawesome.com/releases/v5.15/css/all.css"/>
+        <link href="assets/style.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <!--  Header Section Start-->
+        <header>
+            <nav class="">
+                <div class="container">
+                    <div class="logo">
+                        <a class="navbar-brand logo" href="#">
+                            <img src="assets/img/jio-logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul class="">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Mobile <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="new-badge"> 
+                                    <div class="new-badge-inner">
+                                        <span>New</span>
+                                    </div>
+                                </div>
+                                <a class="nav-link" href="#">
+                                    
+                                    True 5G
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">JioFiber</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Business</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Apps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Support</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-md-0">
+                            <input class="form-control search" type="text" placeholder="Search" >
+                        </form>
+                        <div class="user-avatar">
+                            <img src="assets/img/icons8-user-30.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Header End -->
+        <!-- Slider -->
+        <!-- <section class="">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/slider-1.png" alt="">
+            
+                    <div class="container">
+                      <div class="carousel-caption text-left">
+                        <h1>Looking to binge-watch on the big screen?</h1>
+                        <p>Get started with JioFiber's set-top box.</p>
+                        <a class="btn btn-lg btn-primary round-button" href="#">Book Now</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></svg>
+            
+                    <div class="container">
+                      <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p>Some representative placeholder content for the second slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></svg>
+            
+                    <div class="container">
+                      <div class="carousel-caption text-right">
+                        <h1>One more for good measure.</h1>
+                        <p>Some representative placeholder content for the third slide of this carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+        </section> -->
+        <!-- Slider End-->
+        <!-- Slider bottom-->
+        
+        <!-- <section class="icons">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 icon-item">
+                        <i class="fa fa-google"></i>
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 7h1v1a1 1 0 102 0V7h1a1 1 0 100-2h-1V4a1 1 0 00-2 0v1h-1a1 1 0 100 2z" fill="currentColor"></path>
+                            <path d="M14 6c.003-.336.037-.67.1-1H5a3 3 0 00-3 3v8a3 3 0 003 3h14a3 3 0 003-3v-6a5 5 0 01-5.24.47 4.89 4.89 0 01-2-1.84A5 5 0 0114 6zM8 8a1.5 1.5 0 011.47 1.79A1.49 1.49 0 018.29 11a1.49 1.49 0 01-.86-.08 1.55 1.55 0 01-.68-.56A1.5 1.5 0 018 8zm2 8H6a1 1 0 01-1-1 3 3 0 016 0 1 1 0 01-1 1z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="col-md-2">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 7h1v1a1 1 0 102 0V7h1a1 1 0 100-2h-1V4a1 1 0 00-2 0v1h-1a1 1 0 100 2z" fill="currentColor"></path>
+                            <path d="M14 6c.003-.336.037-.67.1-1H5a3 3 0 00-3 3v8a3 3 0 003 3h14a3 3 0 003-3v-6a5 5 0 01-5.24.47 4.89 4.89 0 01-2-1.84A5 5 0 0114 6zM8 8a1.5 1.5 0 011.47 1.79A1.49 1.49 0 018.29 11a1.49 1.49 0 01-.86-.08 1.55 1.55 0 01-.68-.56A1.5 1.5 0 018 8zm2 8H6a1 1 0 01-1-1 3 3 0 016 0 1 1 0 01-1 1z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="col-md-2">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 7h1v1a1 1 0 102 0V7h1a1 1 0 100-2h-1V4a1 1 0 00-2 0v1h-1a1 1 0 100 2z" fill="currentColor"></path>
+                            <path d="M14 6c.003-.336.037-.67.1-1H5a3 3 0 00-3 3v8a3 3 0 003 3h14a3 3 0 003-3v-6a5 5 0 01-5.24.47 4.89 4.89 0 01-2-1.84A5 5 0 0114 6zM8 8a1.5 1.5 0 011.47 1.79A1.49 1.49 0 018.29 11a1.49 1.49 0 01-.86-.08 1.55 1.55 0 01-.68-.56A1.5 1.5 0 018 8zm2 8H6a1 1 0 01-1-1 3 3 0 016 0 1 1 0 01-1 1z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="col-md-2">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 7h1v1a1 1 0 102 0V7h1a1 1 0 100-2h-1V4a1 1 0 00-2 0v1h-1a1 1 0 100 2z" fill="currentColor"></path>
+                            <path d="M14 6c.003-.336.037-.67.1-1H5a3 3 0 00-3 3v8a3 3 0 003 3h14a3 3 0 003-3v-6a5 5 0 01-5.24.47 4.89 4.89 0 01-2-1.84A5 5 0 0114 6zM8 8a1.5 1.5 0 011.47 1.79A1.49 1.49 0 018.29 11a1.49 1.49 0 01-.86-.08 1.55 1.55 0 01-.68-.56A1.5 1.5 0 018 8zm2 8H6a1 1 0 01-1-1 3 3 0 016 0 1 1 0 01-1 1z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="col-md-2">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 7h1v1a1 1 0 102 0V7h1a1 1 0 100-2h-1V4a1 1 0 00-2 0v1h-1a1 1 0 100 2z" fill="currentColor"></path>
+                            <path d="M14 6c.003-.336.037-.67.1-1H5a3 3 0 00-3 3v8a3 3 0 003 3h14a3 3 0 003-3v-6a5 5 0 01-5.24.47 4.89 4.89 0 01-2-1.84A5 5 0 0114 6zM8 8a1.5 1.5 0 011.47 1.79A1.49 1.49 0 018.29 11a1.49 1.49 0 01-.86-.08 1.55 1.55 0 01-.68-.56A1.5 1.5 0 018 8zm2 8H6a1 1 0 01-1-1 3 3 0 016 0 1 1 0 01-1 1z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="col-md-2">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 7h1v1a1 1 0 102 0V7h1a1 1 0 100-2h-1V4a1 1 0 00-2 0v1h-1a1 1 0 100 2z" fill="currentColor"></path>
+                            <path d="M14 6c.003-.336.037-.67.1-1H5a3 3 0 00-3 3v8a3 3 0 003 3h14a3 3 0 003-3v-6a5 5 0 01-5.24.47 4.89 4.89 0 01-2-1.84A5 5 0 0114 6zM8 8a1.5 1.5 0 011.47 1.79A1.49 1.49 0 018.29 11a1.49 1.49 0 01-.86-.08 1.55 1.55 0 01-.68-.56A1.5 1.5 0 018 8zm2 8H6a1 1 0 01-1-1 3 3 0 016 0 1 1 0 01-1 1z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Slider bottom end -->
+        
+        <!-- Script-->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+        <script src="assets/dist/js/bootstrap.bundle.min.js"></script>     -->
+        <!-- Script end-->
+    </body>
+</html>
